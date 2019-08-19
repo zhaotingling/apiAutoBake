@@ -31,7 +31,7 @@ class Logger(object):
          # 创建一个handler，用于写入日志文件
             now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
             log_path = os.path.abspath('.')
-            log_name = log_path.split('bakeApiAutoTest')[0] + "bakeApiAutoTest\\logs\\test"  + now + '.log'
+            log_name = log_path.split('apiAutoBake')[0] + "apiAutoBake\\logs\\test"  + now + '.log'
 
             fh = logging.FileHandler(log_name)
             fh.setLevel(logging.INFO)

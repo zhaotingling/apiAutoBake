@@ -22,7 +22,7 @@ def all_case():
 
 if __name__=="__main__":
     path = os.path.abspath('.')
-    report_path = path.split("bakeApiAutoTest")[0] + "apiAutoBake\\test_report"
+    report_path = path.split("apiAutoBake")[0] + "apiAutoBake\\test_report"
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
 
     HtmlFile = os.path.join(report_path,"report_"+now+".html")

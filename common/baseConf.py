@@ -27,7 +27,7 @@ class baseconf(object):
         # report_path = os.path.join(os.getcwd(), "conf") + '/configs.ini'
         # report_name = os.path.realpath("bakeApiAutoTest") + "\\conf\\configs.ini"
         path = os.path.abspath('.')
-        report_name = path.split("bakeApiAutoTest")[0] +"bakeApiAutoTest\\conf\\configs.ini"
+        report_name = path.split("apiAutoBake")[0] +"apiAutoBake\\conf\\configs.ini"
 
         try:
             config.read(report_name)
@@ -44,7 +44,7 @@ class baseconf(object):
             #     :return: 配置文件的value
         """
         path = os.path.abspath('.')
-        report_path = path.split("bakeApiAutoTest")[0] + "bakeApiAutoTest\\conf\\configs.ini"
+        report_path = path.split("apiAutoBake")[0] + "apiAutoBake\\conf\\configs.ini"
 
         try:
             config.read(report_path)
