@@ -22,5 +22,9 @@ class testData(object):
         datas = {"apikey":"", "text":"", "email":""}
         return datas
 
+    def test03Data1212(self):
+        datas = {"apikey":"", "text":"", "email":""}
+        return datas
+
 
 
